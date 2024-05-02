@@ -1,0 +1,76 @@
+body {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('bg.jpg');
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.body {
+  border: 2px solid black;
+  height: 76vh;
+  width: 25%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: transparent;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.container {
+  height: 38.9vh;
+  width: 21em;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.row {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 6px;
+  gap: 5px;
+  /* flex-direction: row; */
+}
+
+.opration {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.btn {
+  height: 50px;
+  cursor: pointer;
+  width: 100px;
+  font-size: 20px;
+  color: orangered;
+  background-color: rgb(0, 0, 0);
+  border-radius: 170px;
+  background-image: url();
+  border: none;
+  box-shadow: rgba(29, 29, 255, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.btn:hover {
+  background-color: rgb(102, 99, 99);
+}
+
+#txt-area {
+  height: 10%;
+  width: 60%;
+  position: relative;
+  left: 20%;
+  top: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .body {
+    height: 43vh;
+    width: 77%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .body {
+    height: 43vh;
+    width: 94%;
+  }
+}
