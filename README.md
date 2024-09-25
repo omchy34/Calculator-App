@@ -37,7 +37,7 @@ Check out the live version of the calculator here: [Live Demo](https://omchy34.g
 
 ## 🤝 Connect with Me
 
-- LinkedIn: [Your LinkedIn Profile](www.linkedin.com/in/om-choudhary-46b635233)
+- LinkedIn: [Connect with me. ](www.linkedin.com/in/om-choudhary-46b635233)
 
 ---
 
